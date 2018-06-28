@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name" : "Issa Nyan",
+ "version": "1.0",
+ "description": "Don't let your dreams be memes",
+ "content_scripts": [
+   {
+     "matches": [
+    "http://*/*","https://*/*"],
+     "js": ["./main.js"]
+   }
+ ]
+
+}
